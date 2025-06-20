@@ -1,0 +1,118 @@
+.navbar a {
+    font-family: Times, "Times New Roman", serif;
+    font-size: x-large;
+    font-weight: bold;
+   font-style: oblique;
+}
+.bg-srb {
+    background: -webkit-linear-gradient(70deg, #fff  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg,#1a237b 20%, #ff1744 60%);
+      background: -o-linear-gradient(70deg, #fff 30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #1a237b 20%, #ff1744 60%);
+      background: -moz-linear-gradient(70deg, #fff  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #1a237b 20%, #ff1744 60%);
+      background: linear-gradient(70deg, #fff 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #1a237b 20%, #ff1744 60%);
+    }
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(134, 134, 134, 0.8),rgba(134, 134, 134, 0.8)), url("..//slike/jerry-zhang-OnXvKZldSJ0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bannerr{
+    width: 100%;
+    height: 100vh;
+    background-image: url("..//slike/angela-compagnone-aGa1x0HAj7c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content{
+    width: 100%;
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.title{
+    font-size: 33.5px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 200;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.btnHero{
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 2px solid #ff1744;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%,#ff1744 50% );
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+    color: #fff;
+}
+.btnHero:hover{
+    background-position: right;
+    color:#fff;
+}
+.slider {
+    color:#1a237b;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation:  slider 4s linear infinite;
+}
+@keyframes slider{
+    0%{margin-top: -350px;}
+    30%{margin-top: -200px;}
+    35%{margin-top:0px;}
+    65%{margin-top: 0px;}
+    70%{margin-top: 200px;}
+    100%{margin-top: 200px;}
+}
+
+.h1Tekst{
+    font-family: Georgia, serif;
+    
+}
+.list-unstyled li {
+    padding: 1.5rem;
+    border-bottom: 1px solid #000;
+  }
+  
+  .list-unstyled li a {
+    color: #ff1744;
+    text-decoration: none;
+  }
+  
+  .list-unstyled li a:hover {
+    color: #1a237b;
+  }
+  [id*="poruka-"] {
+    color: red;
+  }
+  .bg-quotes{
+      background-color: #1a237b;
+  }
+
+
+  .btn-success{
+    background-color: #1a237b !important; 
+  }
+.h1Aloe{
+   
+}
